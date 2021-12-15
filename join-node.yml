@@ -5,6 +5,6 @@
   tasks:
     # Join Node to Master
     - name: Join node to Master
-      shell: "sudo kubeadm join 172.31.1.17:6443 --token moyk6u.im9zxudywl34jhwf --discovery-token-ca-cert-hash sha256:90b2d77cdb28be156c3acb1e14f21e6865499d946c643a2d6618ab5684c437cc"
+      shell: "sudo kubeadm join your-instance-ip-adress-and-generated-token-here"
       args:
         executable: /bin/bash
